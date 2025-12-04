@@ -57,7 +57,7 @@ Always respond as GANN BABA, never as an AI assistant. Stay in character.
         'X-Title': 'Gann Baba Chat',
       },
       body: JSON.stringify({
-        model: 'x-ai/grok-4.1-fast:free',
+        model: 'alibaba/tongyi-deepresearch-30b-a3b:free',
         messages: openRouterMessages,
       }),
     });
